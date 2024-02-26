@@ -1,0 +1,50 @@
+body {
+    margin :0;
+    padding:0;
+}
+#container{
+  margin-top: 0.3%;
+  height : 85vh;
+  width : 100vw;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+
+
+.child{
+    height : 10%;
+    width : 9.5%;
+    border : 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+
+
+}
+
+#dice{
+ 
+    height : 30px;
+    width : 150px;
+}
+
+.first-child{
+    background : linear-gradient(40deg,red,blue);
+    
+}
+
+#dice_container{
+    margin-top: 2%;
+    height : 60px;
+    width : 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
